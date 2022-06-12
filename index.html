@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Startses</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <title>Startse</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="stylesheet" href="./css/responsive.css"/>
     
@@ -15,7 +15,7 @@
  <body>
   <header>
     <div class="container">
-      <img src="./image.png" alt="logo"/>
+      <img src="images/image.png" alt="logo"/>
       <div class="menu section">
         <div class="container-menu">
           <input type="checkbox" id="checkbox-menu"/>
@@ -31,7 +31,7 @@
              <a href="https://startse.thiagocordeiro2.repl.co/">Home</a> 
             </li>
             <li>
-             <a href="">Artigos</a> 
+             <a href="#articles">Artigos</a> 
             </li>
             <li>
              <a href="#form">Contato</a>
@@ -50,83 +50,113 @@
           Provocando novos começos com um conhecimento transformador na velocidade do Agora!
         </h3>
         <form>
-          <input type="text" placeholder="Nome"/>
-          <input type="email" placeholder="E-mail"/>
+          <input type="text" required="text" placeholder="Nome"/>
+          <input type="email" required="email" placeholder="E-mail"/>
           <input type="submit" value="Enviar"/>
         </form>
       </div>
-      <img src="./register.webp" alt=""/>
+      <img src="images/register.webp" alt=""/>
     </div>
   </main>
-  <section class="cards">
+   <div id="articles">
+    <h1>Artigos</h1><br>
+    <p>Os temas mais relevantes do Agora, com a análise da StartSe, para que você não fique para trás.</p>
+    </div><br> 
+  <section class="cards"> 
     <div class="card">
       <div class="image">
-      <img src="./unicornio.webp"/> 
+      <img src="images/card1.webp"/> 
       </div>  
     <div class="content">
       <p class="title text--medium"/>
-        Com startups mais 'baratas', grandes empresas buscam aquisições
+       Windows 11: Microsoft quer sistema rodando apenas em SSDs em 2023
       </p>
       <div class="info">
-        <p class="text--medium">57 Min</p>
+        <p class="text--medium">7 Min</p>
       </div>
     </div>
     </div>  
     <div class="card">
       <div class="image">
-      <img src="./unicornio.webp"/> 
+      <img src="images/card2.webp"/> 
       </div>  
     <div class="content">
       <p class="title text--medium"/>
-        Com startups mais 'baratas', grandes empresas buscam aquisições
+Google Maps agora mostra a qualidade de ar em sua região
       </p>
       <div class="info">
-        <p class="text--medium">57 Min</p>
+        <p class="text--medium">11 Min</p>
       </div>
     </div>
     </div>  
     <div class="card">
       <div class="image">
-      <img src="./unicornio.webp"/> 
+      <img src="images/card3.webp"/> 
       </div>  
     <div class="content">
       <p class="title text--medium"/>
-        Com startups mais 'baratas', grandes empresas buscam aquisições
+Twitter agora permite descrever denúncias de tweets com contexto
       </p>
       <div class="info">
-        <p class="text--medium">57 Min</p>
+        <p class="text--medium">22 Min</p>
       </div>
     </div>
     </div> 
      <div class="card">
       <div class="image">
-      <img src="./unicornio.webp"/> 
+      <img src="images/card4.webp"/> 
       </div>  
     <div class="content">
       <p class="title text--medium"/>
-        Com startups mais 'baratas', grandes empresas buscam aquisições
+ WhatsApp quer dar mais visibilidade às atualizações de status
       </p>
       <div class="info">
-        <p class="text--medium">57 Min</p>
+        <p class="text--medium">3 Min</p>
+      </div>
+    </div>
+    </div>  
+     <div class="card">
+      <div class="image">
+      <img src="images/card5.webp"/> 
+      </div>  
+    <div class="content">
+      <p class="title text--medium"/>
+Descubra como se tornar liderança de tecnologia e disrupção ao lado dos profissionais mais admirados da América Latina.
+      </p>
+      <div class="info">
+        <p class="text--medium">18 Min</p>
+      </div>
+    </div>
+    </div>
+     <div class="card">
+      <div class="image">
+      <img src="images/card6.jpg"/> 
+      </div>  
+    <div class="content">
+      <p class="title text--medium"/>
+As diferenças entre trabalhadores digitais, chatbots e bots
+      </p>
+      <div class="info">
+        <p class="text--medium">5 Min</p>
       </div>
     </div>
     </div>  
   </section>
   <section id="form">
     <div class="form">
-    <fieldset> 
-    <form> 
+    <form id="contact">
+    <fieldset>
     <legend>Contato</legend>  
-    <input type="text" placeholder="Nome"/><br>
+    <input type="text" required="Name" placeholder="Nome"/><br>
     
-    <input type="tel" placeholder="Telefone"/><br>
-    <input type="email" placeholder="E-mail"/><br>
-    <textarea id="text" name="text" rows="10" cols="31"> 
+    <input type="tel" required="Tel" placeholder="Telefone"/><br>
+    <input type="email" required="email" placeholder="E-mail"/><br>
+    <textarea id="text" name="text" required="Preencha" rows="10" cols="31"> 
     </textarea><br>
     <input type="submit" value="Enviar">
     <input type="reset" value="Limpar"> 
+    </fieldset> 
     </form>
-    </fieldset>   
     </div> 
   </section>  
  </body>

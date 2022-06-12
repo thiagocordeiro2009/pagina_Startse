@@ -37,6 +37,10 @@ header nav ul li a {
   font: size 18px;
   padding: 24px;
   transition: all 250ms linear 0s;
+  
+}
+.container-menu{
+  display: none;
 }
 header nav ul li a:hover{
   background: rgba(255,255,255,0.15);
@@ -110,8 +114,12 @@ main .container-main img{
   box-shadow: 5px 5px 15px -4px #000000;
   transition: all 0.3s ease 0s;
 }
+.text--medium:hover{
+  color: #0080ed;
+}
 .card:hover{
-  transform: translatey(-7px);
+  transform: translatey(-10px);
+  
   }
 .image{
   width: 100%;
@@ -132,13 +140,64 @@ main .container-main img{
 .title{
   margin-bottom: 0px;
 }
-.desafio{
-  font-size: 100px;
-  display: flex;
-  justify-content: center;
-  height: 400px;
-  align-items: center;
-  border: 1px solid black;
-  margin: 100px auto; 
-  max-width: 980px;
+
+#articles{
+  text-align: center;
+}
+#articles p{
+  font-size: 25px;
+}
+/*formulario*/
+ .form{
+   display: flex;
+  align-itens: center;
+  justify-content: space-between;
+  max-width: 980px; 
+  margin: 100px auto 0px auto; 
+}
+fieldset input{
+  width: 380px;
+  padding-left: 15px;
+  font-size: 18px;
+  display: block;
+  height: 45 px;
+  margin-bottom: 13px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border: 2px solid #0080ed;
+}
+fieldset [type="submit"]{
+  width: 185px;
+  background-color: #0080ed;
+  color: white;
+}
+fieldset [type="reset"]{
+  width: 185px;
+  background-color: #0080ed;
+  color: white;
+}
+fieldset [type="reset"]:hover{
+  cursor: pointer;
+}  
+fieldset{
+  position: absolute;
+  width: 450px;
+  padding: 15px;
+  font-size: 18px;
+  height: 45 px;
+  margin-bottom: 13px;
+  border-radius: 20px;
+  border: 2px solid #0080ed;
+}
+textarea {
+  width: 380px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border: 2px solid #0080ed; 
+}
+legend{
+  color: #0080ed;
 }
