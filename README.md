@@ -1,3 +1,4 @@
+O projeto pode ser acessado atráves do link https://Startse.thiagocordeiro2.repl.co no replit ou atráves no terminal Digitando npm start <br>
 Esse desafio era construir uma replica da página Startse, uma página responsiva e funcional.
 ![image](https://user-images.githubusercontent.com/101266380/184546543-c16f7f73-3975-4111-a969-79cb9f11cded.png)
 Quando clicamos no artigo é direcionado para os cards.
